@@ -11,6 +11,7 @@ while c < 100:
         f.write(str(i))
 
     os.system('git commit -a -m "to infinity!"')
-    os.system('git push')
 
     c += 1
+
+os.system('git push')
