@@ -2,7 +2,7 @@
 import os
 
 c = 0
-while c < 100:
+while c < 10000:
     with open('count.txt', 'r') as f:
         i = int(f.read())
 
